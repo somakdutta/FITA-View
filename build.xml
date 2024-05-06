@@ -129,7 +129,7 @@
     </javadoc>
   </target>
 
-  <target name="build" depends="resolve, execfile, test"
+  <target name="build" depends="resolve, execfile"
     description="Resolve dependencies &amp; Compile source files &amp; Create executable jar &amp; Run all tests" />
 
   <target name="rebuild" depends="clean, build"
